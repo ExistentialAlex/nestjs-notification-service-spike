@@ -1,0 +1,15 @@
+Dear {{UserName}},
+                                  
+Thank you for contacting Sky Analytics.
+
+Your request ({{IncidentNo}}) has been received and will be picked up by our support team, who will get back to you with a resolution as soon as they can.
+
+We appreciate your patience.
+
+Support request details:
+Date & Time: {{SubmittedDate}}
+Title: {{Title}}
+Issue Type: {{IssueType}}
+Description: {{Description}}
+
+{{AlternativeFooter}}

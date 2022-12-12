@@ -1,0 +1,14 @@
+Campaign Name: {{CampaignName}}
+Buyer: {{BuyerName}}
+Advertiser: {{AdvertiserName}}
+
+User: {{CreatedByUserName}}
+Email: {{CreatedByUserEmail}}
+Submitted: {{SubmittedDate}}
+
+Budget: {{Budget}}
+
+Click here to view the full campaign plan:
+{{WebsiteRootUrl}}campaign-plan/plan/#/view/{{CampaignPlanID}}
+
+{{AlternativeFooter}}

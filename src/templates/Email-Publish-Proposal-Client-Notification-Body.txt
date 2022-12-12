@@ -1,0 +1,17 @@
+Dear {{UserName}},
+
+An AdSmart Proposal {{ProposalName}} for {{AdvertiserName}} is ready for your review.
+
+Visit here to view the proposal:
+{{WebsiteRootUrl}}campaign-plan/plan/#/{{PlanId}}/proposal/view/{{ProposalId}}
+
+We hope this meets with your approval, please contact your Sky Media sales executive {{SaleExecFirstName}} {{SaleExecLastName}}
+with your feedback.
+
+{{AlternativeFooter}}
+
+
+
+
+
+            

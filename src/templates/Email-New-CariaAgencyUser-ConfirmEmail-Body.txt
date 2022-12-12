@@ -1,0 +1,13 @@
+Dear {{UserName}},
+
+Your user account for Sky Analytics has been created.
+
+Please click here to confirm your email address in order to complete the setup process: {{WebsiteRootUrl}}Confirm?acc={{UserID}}&cnf={{Code}}
+
+Note that the email must be the one you use to sign in to CARIA. If this is not the case, please contact your Sky Media representative to get your account updated.
+
+Once your account is activated, you can sign in by clicking the “Sign in with your CARIA account” button at the bottom of the login page.
+
+Please note the above link will expire in {{ExpiryInDays}} days.
+
+{{AlternativeFooter}}

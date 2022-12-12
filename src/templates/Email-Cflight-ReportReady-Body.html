@@ -1,0 +1,37 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Dear {{UserName}},</p>
+        <p>Cflight Report No. <strong>{{CrossPlatformReportID}}</strong> - <strong>{{CrossPlatformReportName}}</strong> was successfully created and is now ready to be viewed.</p>
+        <p></p>
+        <p><a href="{{WebsiteRootUrl}}crossplatformreport#/viewcrossplatform/{{CrossPlatformReportID}}">Click here to access your report.</a></p>
+        <p>Alternatively, log in as normal, go to the CFlight Reports section of the site and find the reports that have the status 'Ready'.</p>
+        {{Footer}}
+    </body>
+</html>

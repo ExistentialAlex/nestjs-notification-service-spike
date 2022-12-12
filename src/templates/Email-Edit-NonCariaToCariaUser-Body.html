@@ -1,0 +1,39 @@
+<html>
+<head>
+</head>
+<body>
+    <style type="text/css">
+        * {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        html {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        body {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        p {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        a {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+    </style>
+    <p>Dear {{UserName}},</p>
+    <p>Your user account for Sky Analytics has been updated.</p>
+    <p>Please <a href="{{WebsiteRootUrl}}Confirm?acc={{UserID}}&cnf={{Code}}">click here</a> to confirm your email address and activate your account.</p>
+    <p><b>Note that the email must be the one you use to sign in to CARIA.</b> If this is not the case, please contact your Sky Media representative to get your account updated.</p>
+    <p>Once your account is activated, you can sign in by clicking the <b>"Sign in with your CARIA account"</b> button at the bottom of the login page.</p>
+    <p><b>Please note the above link will expire in {{ExpiryInDays}} days.</b></p>
+    {{Footer}}
+</body>
+</html>

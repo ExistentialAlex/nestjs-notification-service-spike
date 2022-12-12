@@ -1,0 +1,11 @@
+A request for evaluation data has been received from {{EndUserName}},
+                                  
+Performance Evaluation No: {{EvalID}}
+Performance Evaluation Name: {{EvalName}}
+
+User ID: {{EndUserID}}
+User Name: {{EndUserName}}
+
+Please email the evaluation raw data to {{EndUserEmail}}.
+
+{{AlternativeFooter}}

@@ -1,0 +1,25 @@
+Dear TechEdge Team,
+                                  
+A cross platform delivery report has been created with report name {{CrossPlatformDeliveryReportName}} of report id {{CrossPlatformDeliveryReportId}}
+
+Report name: {{CrossPlatformDeliveryReportName}}
+Report Id: {{CrossPlatformDeliveryReportId}}
+Demo: {{CrossPlatformDeliveryReportDemo}}
+Date Range: {{CrossPlatformDeliveryReportStartDate}} to {{CrossPlatformDeliveryReporEndDate}}
+Buyer: {{CrossPlatformDeliveryReportBuyer}}
+VOD Campaign Ids: 
+{{DynamicCampaignIdsList}}
+Clock #s:
+{{DynamicClockNumbersList}}
+Requested by: {{CrossPlatformDeliveryReportRequestedBy}}
+
+Please run the appropriate report in Techedge and save the file with the Report Name
+{{CrossPlatformDeliveryReportId}}_{{CrossPlatformDeliveryReportName}} so Sky 
+Analytics can pick it up and retrieve the data.
+{{AlternativeFooter}}
+
+
+
+
+
+            

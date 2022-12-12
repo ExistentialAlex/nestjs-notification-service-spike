@@ -1,0 +1,57 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Dear {{UserName}},</p>
+        <p>
+            Thank you for contacting Sky Analytics.
+        </p>
+
+        <p>
+            Your request ({{IncidentNo}}) has been received and will be picked up by our support team, who will get back to you with a resolution as soon as they can.
+        </p>
+
+        <p>
+            We appreciate your patience.
+        </p>
+
+        <p>
+            <i>
+                <span><strong>Support request details:</strong></span><br />
+                <span>Date &amp; Time: {{SubmittedDate}}</span><br />
+                <span>Title: {{Title}}</span><br />
+                <span>Issue Type: {{IssueType}}</span><br />
+                <span>Description: {{Description}}</span>
+            </i>
+        </p>
+        <p></p>
+        <p></p>
+
+        {{Footer}}
+    </body>
+</html>

@@ -1,0 +1,7 @@
+Performance Evaluation No. {{EvalLiteID}} - {{EvalLiteName}} was successfully created and is now ready to be viewed and approved.
+
+Click here to access your report: {{WebsiteRootUrl}}performance-evaluations#/{{EvalLiteID}}
+
+Alternatively, log in as normal, go to the performance evaluations section of the site and find the reports that have the status 'Awaiting Approval'.
+
+{{AlternativeFooter}}

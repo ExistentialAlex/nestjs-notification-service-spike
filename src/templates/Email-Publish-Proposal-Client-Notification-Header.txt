@@ -1,0 +1,1 @@
+Sky Analytics - AdSmart Proposal ready for your review. Campaign: {{PlanName}} - Proposal Id {{ProposalId}}.

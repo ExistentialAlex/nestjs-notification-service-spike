@@ -1,0 +1,40 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Dear {{ClientName}},</p>
+        <p>
+            An AdSmart Proposal {{ProposalID}}: {{ProposalName}} has been created for you.
+        </p>
+        <p>
+            Please <a href="{{WebsiteRootUrl}}campaign-plan/plan/#/{{PlanID}}/proposal/view/{{ProposalID}}">Click here</a> to review the proposal.
+        </p>
+        
+        {{Footer}}
+    </body>
+</html>

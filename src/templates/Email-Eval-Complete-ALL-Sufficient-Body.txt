@@ -1,0 +1,9 @@
+Dear {{UserName}},
+                                  
+Performance Evaluation No. {{EvalID}} for {{AdvertiserName}} was successfully created and is now ready to view.
+
+Go here to access your report: {{WebsiteRootUrl}}performance-evaluations#/{{EvalID}}
+
+Alternatively, log in as normal and go to the performance section of the site.
+
+{{AlternativeFooter}}

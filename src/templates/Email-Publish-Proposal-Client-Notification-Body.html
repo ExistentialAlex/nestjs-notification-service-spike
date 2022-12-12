@@ -1,0 +1,51 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            ul.disc {
+                list-style-type: disc;
+            }
+
+            ul.circle {
+                list-style-type: circle;
+            }          
+        </style>
+
+        <p>Dear <strong>{{UserName}},</strong></p>
+        <p>
+            An AdSmart Proposal <strong>{{ProposalName}}</strong> for <strong>{{AdvertiserName}}</strong> is ready for your review.
+        </p>
+        <p>
+            <a href="{{WebsiteRootUrl}}campaign-plan/plan/#/{{PlanId}}/proposal/view/{{ProposalId}}">Click here to view the proposal. </a>
+        </p>
+        <p>
+            We hope this meets with your approval, please contact your Sky Media sales executive <strong>{{SaleExecFirstName}} {{SaleExecLastName}}</strong> with your feedback.
+        </p>
+        {{Footer}}
+    </body>
+</html>

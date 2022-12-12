@@ -1,0 +1,23 @@
+Dear {{UserName}},
+                                  
+Your Sky Analytics account has been locked.
+
+This has been done as a security measure and occurs when a username and password has been entered incorrectly three times.
+
+In order to unlock your account, please reset your password.
+
+Visit here to reset your password within the next {{ExpiryInMinutes}} minutes: 
+			
+{{IdServerRootUrl}}SetPassword?acc={{UserID}}&cnf={{Code}}
+
+If the link above has expired, you can visit here to re-send a request to reset your password, or go to the Sky Analytics login page and click the Forgot password? link: 
+			
+{{IdServerRootUrl}}ResetPassword
+
+{{AlternativeFooter}}
+
+
+
+
+
+            

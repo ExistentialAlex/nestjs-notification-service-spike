@@ -1,0 +1,36 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Dear {{UserName}},</p>
+        <p>Performance Evaluation No. {{EvalID}} for {{AdvertiserName}} was successfully created and is now ready to view.</p>
+        <p><a href="{{WebsiteRootUrl}}performance-evaluations#/{{EvalID}}">Click here</a> to access your report.</p>
+        <p>Alternatively, log in as normal and go to the performance section of the site.</p>
+        {{Footer}}
+    </body>
+</html>

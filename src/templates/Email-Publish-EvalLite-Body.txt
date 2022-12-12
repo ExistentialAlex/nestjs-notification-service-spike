@@ -1,0 +1,16 @@
+﻿Dear {{UserName}},
+
+Performance Evaluation No. {{EvalID}} - {{EvalName}} was successfully created and is now ready to be viewed.
+
+Click here to access your report.
+{{WebsiteRootUrl}}performance-evaluations#/{{EvalID}}
+
+Alternatively, log in as normal, go to the performance evaluations section of the site and find the report.
+
+{{AlternativeFooter}}
+
+
+
+
+
+            

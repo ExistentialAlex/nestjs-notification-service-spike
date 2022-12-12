@@ -1,0 +1,7 @@
+Dear {{UserName}},
+                                  
+Your user account for Sky Analytics has been updated. Your username is {{Email}}
+
+Please click here to complete the setup process: {{WebsiteRootUrl}}Confirm?acc={{UserID}}&cnf={{Code}}
+
+{{AlternativeFooter}}

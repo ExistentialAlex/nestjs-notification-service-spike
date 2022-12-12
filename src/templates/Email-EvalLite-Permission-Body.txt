@@ -1,0 +1,13 @@
+Dear {{UserName}},
+
+I hope you are well.
+
+Thanks for using the self-serve AdSmart Campaign Evaluation feature on the Sky Analytics website.
+
+If you are a new user of Analytics you will receive an email shortly from noreply@analytics.sky with a link which you will need to click to activate your account. (Note these emails sometimes go to the spam folder so please check there if you don't get it within an hour.)
+    
+Once your account is activated, or if you are an existing user of Analytics you can access  the website here {{WebsiteRootUrl}} and create a campaign evaluation report.
+    
+Attached are instructions for how to create the evaluation. I hope you find this feature meets your needs, if you have any questions or need any support, please feel free to contact your Sky Media representative.
+   
+{{AlternativeFooter}}

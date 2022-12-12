@@ -1,0 +1,36 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Dear {{FirstName}},</p>
+        <p>Your user account for Sky Analytics has been created. Your username is {{Email}}</p>
+        <p>Please <a href="{{WebsiteRootUrl}}Confirm?acc={{UserID}}&cnf={{Code}}">click here</a> to confirm your email address and activate your account.</p>
+        <p><b>Please note the above link will expire in {{ExpiryInDays}} days.</b></p>
+        {{Footer}}
+    </body>
+</html>

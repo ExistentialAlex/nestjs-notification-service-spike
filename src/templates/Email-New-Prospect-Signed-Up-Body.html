@@ -1,0 +1,41 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Dear Team,</p>
+        <p>A new prospect has signed up to Sky Analytics:</p>
+        <p></p>
+        <p>Name: {{FirstName}} {{LastName}}</p>
+        <p>Email Address: {{Email}}</p>
+        <p>Phone Number: {{Phone}}</p>
+        <p>Company: {{Company}}</p>
+        <p></p>
+        <p>This user has been given a {{TrialPeriod}} day trial starting from today. To amend their details or adjust their trial period, please <a href="{{WebsiteRootUrl}}Admin/EditUser/{{UserID}}">click here</a>.</p>
+        {{Footer}}
+    </body>
+</html>

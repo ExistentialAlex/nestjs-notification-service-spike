@@ -1,0 +1,9 @@
+Dear {{UserName}},
+
+Cflight Report No. {{CrossPlatformReportID}} - {{CrossPlatformReportName}} was successfully created and is now ready to be viewed.
+
+Click here to access your report: {{WebsiteRootUrl}}crossplatformreport#/viewcrossplatform/{{CrossPlatformReportID}}
+
+Alternatively, log in as normal, go to the CFlight Reports section of the site and find the reports that have the status 'Ready'.
+
+{{AlternativeFooter}}

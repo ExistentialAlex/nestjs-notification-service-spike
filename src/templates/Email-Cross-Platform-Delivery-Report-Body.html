@@ -1,0 +1,82 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            ul.disc {
+                list-style-type: disc;
+            }
+
+            ul.circle {
+                list-style-type: circle;
+            }          
+        </style>
+
+        <p>To the Insight Team,</p>
+        <p>
+            A cross platform delivery report request has been submitted with the following details :
+        </p>
+        <ul>
+            <li class="disc">
+                <b>Report name:</b> {{CrossPlatformDeliveryReportName}}
+            </li>
+            <li class="disc">
+                <b>Report Id:</b> {{CrossPlatformDeliveryReportId}}
+            </li>
+            <li class="disc">
+                <b>Demo:</b> {{CrossPlatformDeliveryReportDemo}}
+            </li>
+            <li class="disc">
+                <b>Date Range:</b> {{CrossPlatformDeliveryReportStartDate}} to {{CrossPlatformDeliveryReportEndDate}}
+            </li>
+            <li class="disc">
+                <b>Buyer:</b> {{CrossPlatformDeliveryReportBuyer}}
+            </li>
+            <li class="disc">
+                <b>VOD Campaign Ids:</b>
+                <ul>
+                    {{DynamicCampaignIdsList}}
+                </ul>
+            </li>
+            <li class="disc">
+                <b>Clock #s:</b>
+                <ul>
+                    {{DynamicClockNumbersList}}
+                </ul>
+            </li>
+            <li class="disc">
+                <b>Requested by:</b> {{CrossPlatformDeliveryReportRequestedBy}}
+            </li>
+        </ul>
+            <p>
+                Please run the appropriate report in Techedge and save the file with the Report Name
+                <b>{{CrossPlatformDeliveryReportId}}_{{CrossPlatformDeliveryReportName}}</b> so Sky
+                Analytics can pick it up and retrieve the data.
+            </p>
+            {{Footer}}
+    </body>
+</html>

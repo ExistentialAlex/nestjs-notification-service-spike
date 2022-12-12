@@ -1,0 +1,52 @@
+﻿<html>
+<head>
+</head>
+<body>
+    <style type="text/css">
+        * {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        html {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        body {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        p {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        a {
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        ul.disc {
+            list-style-type: disc;
+        }
+
+        ul.circle {
+            list-style-type: circle;
+        }
+    </style>
+
+    <p>Dear <strong>{{UserName}},</strong></p>
+    <p>
+        Performance Evaluation No. <strong>{{EvalID}}</strong> - <strong>{{EvalName}}</strong> was successfully created and is now ready to be viewed.
+    </p>
+    <p>
+        <a href="{{WebsiteRootUrl}}performance-evaluations#/{{EvalID}}">Click here to access your report.</a>
+    </p>
+    <p>
+        Alternatively, log in as normal, go to the performance evaluations section of the site and find the report.
+    </p>
+    {{Footer}}
+</body>
+</html>

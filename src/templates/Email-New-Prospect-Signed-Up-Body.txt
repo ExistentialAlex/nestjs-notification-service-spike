@@ -1,0 +1,12 @@
+Dear Team,
+
+A new prospect has signed up to Sky Analytics:
+
+Name: {{FirstName}} {{LastName}}
+Email Address: {{Email}}
+Phone Number: {{Phone}}
+Company: {{Company}}
+
+This user has been given a {{TrialPeriod}} day trial starting from today. To amend their details or adjust their trial period, please visit: {{WebsiteRootUrl}}Admin/EditUser/{{UserID}}
+
+{{AlternativeFooter}}

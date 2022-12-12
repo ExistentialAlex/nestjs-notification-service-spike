@@ -1,0 +1,48 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Dear {{UserName}},</p>
+        <p>
+            Your Sky Analytics account has been locked.
+        </p>
+        <p>
+            This has been done as a security measure and occurs when a username and password has been entered incorrectly three times.
+        </p>
+        <p>
+            In order to unlock your account, please reset your password.
+        </p>
+        <p>
+            <a href="{{IdServerRootUrl}}SetPassword?acc={{UserID}}&cnf={{Code}}">Click here to reset your password</a> within the next {{ExpiryInMinutes}} minutes.
+        </p>
+        <p>
+            If the link above has expired, you can <a href="{{IdServerRootUrl}}ResetPassword">click here to re-send a request</a> to reset your password, or go to the Sky Analytics login page and click the Forgot password? link
+        </p>
+        {{Footer}}
+    </body>
+</html>

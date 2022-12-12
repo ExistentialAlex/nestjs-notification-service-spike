@@ -1,0 +1,11 @@
+Dear {{UserName}},
+
+Performance Evaluation No. {{EvalID}} for {{AdvertiserName}} was only partially created as some outcomes did not achieve a sufficient number of matches back to Sky households.
+
+The minimum threshold is 30 matches in both the test group and the control group for each outcome being measured.
+
+Go here for more detail: {{WebsiteRootUrl}}performance-evaluations#/{{EvalID}}
+
+You can try recreating the performance evaluation by uploading more outcomes in order to achieve a higher match rate.
+
+{{AlternativeFooter}}

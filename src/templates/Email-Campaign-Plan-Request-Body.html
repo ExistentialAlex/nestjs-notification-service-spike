@@ -1,0 +1,43 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Campaign Name: {{CampaignName}}</p>
+        <p>Buyer: {{BuyerName}}</p>
+        <p>Advertiser: {{AdvertiserName}}</p>
+        <p></p>
+        <p>User: {{CreatedByUserName}}</p>
+        <p>Email: {{CreatedByUserEmail}}</p>
+        <p>Submitted: {{SubmittedDate}}</p>
+        <p></p>
+        <p>Budget: {{Budget}}</p>
+        <p></p>
+        <p><a href="{{WebsiteRootUrl}}campaign-plan/plan/#/view/{{CampaignPlanID}}">Click here to view the full campaign plan</a></p>
+        {{Footer}}
+    </body>
+</html>

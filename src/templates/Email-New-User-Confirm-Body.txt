@@ -1,0 +1,9 @@
+Dear {{UserName}},
+                                  
+Your user account for Sky Analytics has been created. Your username is {{Email}}
+
+Please click here to confirm your email address and activate your account: {{WebsiteRootUrl}}Confirm?acc={{UserID}}&cnf={{Code}}
+
+Please note the above link will expire in {{ExpiryInDays}} days.
+
+{{AlternativeFooter}}

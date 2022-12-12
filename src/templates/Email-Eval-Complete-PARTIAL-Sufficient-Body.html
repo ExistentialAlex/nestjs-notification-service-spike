@@ -1,0 +1,37 @@
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+            * {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            html {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            body {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+
+            a {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 15px;
+            }
+        </style>
+        <p>Dear {{UserName}},</p>
+        <p>Performance Evaluation No. {{EvalID}} for {{AdvertiserName}} was only partially created as some outcomes did not achieve a sufficient number of matches back to Sky households.</p>
+        <p>The minimum threshold is 30 matches in both the test group and the control group for each outcome being measured.</p>
+        <p><a href="{{WebsiteRootUrl}}performance-evaluations#/{{EvalID}}">Click here</a> for more detail.</p>
+        <p>You can try recreating the performance evaluation by uploading more outcomes in order to achieve a higher match rate.</p>
+        {{Footer}}
+    </body>
+</html>

@@ -1,0 +1,9 @@
+Dear {{ClientName}},
+                                  
+
+An AdSmart Proposal {{ProposalID}}: {{ProposalName}} has been created for you.
+Please Visit here to review the proposal.
+
+{{WebsiteRootUrl}}campaign-plan/plan/#/{{PlanID}}/proposal/view/{{ProposalID}}
+
+{{AlternativeFooter}}

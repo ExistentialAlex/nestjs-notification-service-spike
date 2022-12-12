@@ -1,0 +1,1 @@
+Sky Analytics - Cflight Report No. {{CrossPlatformReportID}} is ready
